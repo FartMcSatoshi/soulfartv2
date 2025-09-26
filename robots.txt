@@ -1,0 +1,90 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://solfart.io/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MajesticSEO
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+# Specific directives for static pages
+User-agent: *
+Allow: /about.html
+Allow: /tokenomics.html
+Allow: /faq.html
+Allow: /logo.png
+Allow: /manifest.json
+
+# Block access to source files and development files
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Host directive
+Host: https://solfart.io

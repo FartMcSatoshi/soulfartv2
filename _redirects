@@ -1,0 +1,23 @@
+# External redirects (301 permanent)
+/CAC    https://solfart.io/    301!
+/NM     https://solfart.io/    301!
+/CDN    https://solfart.io/    301!
+/CNN    https://solfart.io/    301!
+/telegram    https://t.me/solfarttokens    301!
+
+# Hide .html extensions - serve HTML files without extension
+/updates    /updates.html    200
+/best-token-presale    /best-token-presale.html    200
+/about    /about.html    200
+/faq    /faq.html    200
+/tokenomics    /tokenomics.html    200
+
+# Redirect .html URLs to clean URLs (301 for SEO)
+/updates.html    /updates    301!
+/best-token-presale.html    /best-token-presale    301!
+/about.html    /about    301!
+/faq.html    /faq    301!
+/tokenomics.html    /tokenomics    301!
+
+# Fallback for React Router
+/*    /index.html   200

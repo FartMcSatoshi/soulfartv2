@@ -1,0 +1,66 @@
+{
+  "name": "Solfart Token - $SOLF Memecoin | Best Crypto Presale of 2025",
+  "short_name": "Solfart Token",
+  "description": "Solfart ($SOLF) memecoin, a token on the Solana and Ethereum Networks. No thrills, just all gas to the top of the memecoin market.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#18181b",
+  "theme_color": "#6fff6f",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Solfart Token Homepage"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Solfart Token Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buy SOLF Token",
+      "short_name": "Buy SOLF",
+      "description": "Purchase Solfart tokens in the presale",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
